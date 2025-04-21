@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip Flight Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Mobile Test(failed)">
+    <classes>
+      <class name="mobile.CalculatorTest">
+        <methods>
+          <include name="testSubtraction"/>
+          <include name="testDivision"/>
+          <include name="testAddition"/>
+          <include name="testNegativeNumberAddition"/>
+          <include name="setup"/>
+          <include name="testDivideByZero"/>
+          <include name="testMultiplication"/>
+        </methods>
+      </class> <!-- mobile.CalculatorTest -->
+    </classes>
+  </test> <!-- Mobile Test(failed) -->
+  <test thread-count="5" name="GoRest Test(failed)">
+    <classes>
+      <class name="api.UserApiTest">
+        <methods>
+          <include name="getUsers"/>
+        </methods>
+      </class> <!-- api.UserApiTest -->
+    </classes>
+  </test> <!-- GoRest Test(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip Flight Suite] -->
