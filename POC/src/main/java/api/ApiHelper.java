@@ -3,7 +3,7 @@ package api;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class ApiHelper {
+public class ApiHelper { 
 
     public static Response get(String baseUrl, String token, String path) {
         return RestAssured.given()
