@@ -17,7 +17,6 @@ public class UserApiTest {
     int userId;
     
 
-
     @Test
     public void getUsers() {
     	Response response = ApiHelper.get(BASE_URL, TOKEN, USERS_ENDPOINT);
