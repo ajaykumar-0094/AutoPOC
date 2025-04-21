@@ -8,7 +8,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import java.util.List;
 import java.util.Map;
 
-public class UserApiTest {
+public class UserApiTest { 
 
     private static final String BASE_URL = "https://gorest.co.in/public/v2";
     private static final String TOKEN = "Bearer 040f7c001ba687666f4c5d15fe612424c11ead57d309a77518db673edb9e1fb8";
