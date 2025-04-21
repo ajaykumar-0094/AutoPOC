@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="AutomationPOC">
- <test name="Flight Test">
-        <classes>
-            <class name="web.CleartripTest"/>
-        </classes>
-    </test>
-</suite>
