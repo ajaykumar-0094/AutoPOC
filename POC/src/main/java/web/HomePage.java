@@ -4,7 +4,7 @@ import org.openqa.selenium.*;
 
 public class HomePage {
     WebDriver driver;
-    private WaitUtils waitUtils;
+    private WaitUtils waitUtils; 
     
     By fromInput = By.xpath("//input[@placeholder='Where from?']");
     By fromCityOption = By.xpath("//p[contains(text(),'Delhi')]");
